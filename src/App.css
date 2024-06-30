@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;  /* Specify the font weight if needed */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo Black", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+  font-style: normal;
+}
+
+body{
+  background-color: #070119;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10%;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
